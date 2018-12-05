@@ -1,6 +1,6 @@
 # AutoMigrate
-> Composer plugin for auto run migration files with laravel and lumen
-<br>一款适用于laravel和lumen的迁移文件自动同步插件
+> 一款适用于laravel和lumen迁移文件自动同步的Composer插件<br>Composer plugin for auto run migration files with laravel and lumen
+
 
 
 
