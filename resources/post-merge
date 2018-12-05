@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+cd ./database/migrations
+time=$(date "+%Y-%m-%d %H:%M")
+hasNew=$(ls --full-time * | grep "${time}" | grep ".php")
+if [ "$hasNew" != "" ]
+    then
+    cd ../../;
+    eval "php artisan migrate"
+fi
