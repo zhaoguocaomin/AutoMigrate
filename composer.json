@@ -1,0 +1,17 @@
+{
+    "name": "phptools/auto-migrate",
+    "description": "Composer plugin for auto run migration files after 'git pull' with laravel and lumen",
+    "license": "MIT",
+    "type": "composer-plugin",
+    "require": {
+        "composer-plugin-api": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "phptools\\composer\\": "src/"
+        }
+    },
+    "extra": {
+        "class": "phptools\\composer\\AutoMigrate"
+    }
+}
