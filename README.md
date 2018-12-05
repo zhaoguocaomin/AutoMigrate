@@ -1,5 +1,5 @@
 # AutoMigrate
-Composer plugin for auto run migration files with laravel and lumen 
+> Composer plugin for auto run migration files with laravel and lumen 
 
 补充：
 MacOs上无法使用--full-time修饰命令。
