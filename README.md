@@ -6,7 +6,7 @@
 
 补充：
 MacOs上因无法使用--full-time修饰命令将导致如下错误提示：
-```
+``` rubi
 ls: illegal option -- -
 usage: ls [-ABCFGHLOPRSTUWabcdefghiklmnopqrstuwx1] [file ...]
 ```
