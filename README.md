@@ -10,4 +10,4 @@ brew install coreutils
 ```
 请注意，默认情况下安装的实用程序将以g为前缀，所以ls变成gls 。
 
-完成这些操作之后，将上文中代码处 ls 改为 gls 即可。
+完成这些操作之后，将resources/post-merge中代码处 ls 改为 gls 即可。
